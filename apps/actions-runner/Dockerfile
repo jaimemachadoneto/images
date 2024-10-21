@@ -21,6 +21,7 @@ RUN \
         build-essential \
         wget \
         curl \
+        build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 USER runner
